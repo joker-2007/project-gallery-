@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+body{
+    margin:0px;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+justify-content: center;
+}
+img{
+    
+    
+    height: 300px;
+    width: 400px;
+    transition: all 1s;
+    margin: 10px;
+}
+h1{
+    border-bottom: 7px solid pink;
+    border-width: 5px;
+   
+    font-size: 2em;
+    
+    justify-content: center;
+    font-family: 'New Tegomin', serif;
+}
+img:hover{
+    transform: scale(1.1);
+}
